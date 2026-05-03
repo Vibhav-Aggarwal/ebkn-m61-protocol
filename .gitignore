@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.jsonl
+*.log
+*.token
+zoho_refresh_token.txt
+.DS_Store
