@@ -1,21 +1,21 @@
 cff-version: 1.2.0
-message: 'If you use this software, please cite it using the metadata below.'
+message: "If you use this research or software, please cite it using the metadata below."
 type: software
-title: 'Realand/EBKN BioFace M61 Protocol Reference'
-abstract: 'Reverse-engineered protocols for Realand/EBKN BioFace M61 biometric terminals — LogClient, FkWeb, WebSocket F500, door unlock. Pure Python, no deps.'
+title: "EBKN M61 Biometric Terminal Protocol Reference & Reference Listener"
+abstract: "Reverse-engineered protocol specifications, command catalogs, and pure-Python reference listener for EBKN BioFace M61 / Realand / Secureye biometric access control terminals."
 authors:
   - family-names: Aggarwal
     given-names: Vibhav
-    orcid: 'https://orcid.org/0009-0000-7686-7119'
-    affiliation: 'Independent Researcher, Gurugram, India'
-version: 1.0.0
-date-released: 2026-05-03
-license: MIT
-repository-code: 'https://github.com/Vibhav-Aggarwal/realand-bioface-m61-protocol'
+    orcid: "https://orcid.org/0009-0000-7686-7119"
+    affiliation: "Independent Researcher, Gurugram, India"
+version: 1.1.0
+date-released: "2026-05-03"
+license: Apache-2.0
+repository-code: "https://github.com/Vibhav-Aggarwal/ebkn-m61-protocol"
 keywords:
   - biometric
-  - protocol
-  - reverse-engineering
-  - ZKTeco
+  - protocol-reverse-engineering
+  - access-control
   - attendance
-  - IoT
+  - websocket
+  - door-unlock
