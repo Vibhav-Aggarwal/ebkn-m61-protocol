@@ -1,0 +1,14 @@
+name: repo-standard-lint
+on: [push, pull_request]
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Required files present
+        run: |
+          for f in README.md LICENSE CITATION.cff CHANGELOG.md CONTRIBUTING.md CODE_OF_CONDUCT.md .repo-meta.yml; do
+            test -f "$f" || { echo "MISSING: $f"; exit 1; }
+          done
+      - name: Validate CITATION.cff
+        run: pipx run cffconvert --validate

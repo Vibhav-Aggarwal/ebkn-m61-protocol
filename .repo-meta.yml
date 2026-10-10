@@ -1,0 +1,7 @@
+# Linearity marker — see ARCHITECTURE-REVIEW.md. Bump template_version when the
+# template changes, then roll across all companion repos; the CI lint checks drift.
+template: paper-repo-template
+template_version: 1.0.0
+license_type: code            # code -> Apache-2.0 | content -> CC-BY-4.0
+paper_doi: ""                 # companion IoT paper unpublished — no DOI yet
+concept_doi: ""               # Zenodo concept DOI for THIS repo (set after first Release)
